@@ -38,8 +38,11 @@
         width: 50%;
     }
     
-}
-.form__texto{
-    font-size:1.0em;
-
+    .titulo{
+        font-size:1.8em;
+    }
+    .form__texto{
+        font-size:1.0em;
+    
+    } 
 }
