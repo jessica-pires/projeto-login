@@ -50,21 +50,38 @@ main{
 .titulo{
     text-align: center;
     margin-bottom: 10px;
+    
 
 }
 .form__texto{
     font-size: 0.8em;
 
 }
+.campo{
+    background-color: #5f2c82;
+    height: 40px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+form > div > span{
+    color: white;
+}
+form > div > label{
+    display: none;
+} 
 .botao{
     background-color: #49a09d;
     display: block;
     width: 100%;
     height: 40px;
-    border: none;
+    border: none; 
     color: white;
     font-size: 1.0em;
     text-align: center;
+    border-radius: 5px;
 }
 .botao:hover{
     background-color: #336f6d;
@@ -76,7 +93,19 @@ main{
     text-align: center;
     color: #49a09d;
     font-size: 1.0em;
+    margin-top: 5px;
+    padding-top: 7px;
     text-decoration: none;
     width: 100%;
     height: 40px;
+    border-radius: 5px;
+
 }
+.botao__esquecisenha > span{
+    font-size: 0.8em;
+}
+.botao__esquecisenha:hover{
+    background-color: #49a09d;
+    color: white;
+}
+
