@@ -5,6 +5,7 @@
     }
     #login{
         width: 80vw;
+        height: 280px;
     }
     #imagem{
         float: left;
@@ -25,6 +26,7 @@
    
     #login{
         width: 990px;
+        height: 340px;
 
     }
     #imagem{
@@ -43,6 +45,7 @@
     }
     .form__texto{
         font-size:1.0em;
+        margin: 20px 0px;
     
     } 
 }
