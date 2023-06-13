@@ -66,10 +66,26 @@ main{
     margin: 5px 0px;
 
 }
-form > div > span{
+form > div > span{/* icone */
     color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    height: 40px;
+
+
 }
-form > div > label{
+form > div > input{
+    background-color: #49a09d;
+    width: calc(100% - 20%);
+    height: 38px;
+    transform: scaleY(30px);
+    border: none;
+    border-radius: 5px;
+
+}
+form > div > label{/* esconder letras icones */
     display: none;
 } 
 .botao{
